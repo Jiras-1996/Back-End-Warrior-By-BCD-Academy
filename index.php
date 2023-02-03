@@ -4,6 +4,8 @@
     </head>
     <body>
         <?php
+            
+            // PHP Arithmetic Operators
             // Assign value in variable
             $x = 10;
             $y = 3;
@@ -31,6 +33,7 @@
             echo "<br>";
             echo $x ** $y;
             
+            // PHP Assignment Operators
             // operator x += y => x=x+y(addition)
             // เท่ากับตัวเดียวเอาไว้สำหรับ assign ค่า
             echo "<br>";
@@ -62,6 +65,7 @@
             $x %= 100;
             echo $x ;
 
+            // PHP Comparison Operators
             // Assign value in variable
             $x = 10;
             $y = 3;
