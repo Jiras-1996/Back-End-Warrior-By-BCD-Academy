@@ -67,15 +67,15 @@
 
             // PHP Comparison Operators
             // Assign value in variable
-            $x = 10;
-            $y = 3;
+            $a = 100;
+            $b = "100";
             echo "<br>";
             echo "<br>";
-            var_dump($x == $y);
+            var_dump($a == $b);
             echo "<br>";
-            var_dump($x === $y);
+            var_dump($a === $b);
             echo "<br>";
-            var_dump($x != $y);
+            var_dump($a != $b);
         ?>
     </body>
 </html>
