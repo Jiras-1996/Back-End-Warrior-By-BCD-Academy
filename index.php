@@ -4,21 +4,56 @@
     </head>
     <body>
         <?php
-        
-            // วิธีที่ 1 ถ้าชุดคำสั่งมีแค่บรรทัดเดียว พิมพ์ได้เลยโดยไม่ต้องใส่ปีกกา
-            $var = 1;
-            if($var == 1)
-                echo "มันมีค่าเป็น 1 <br>";
-            else
-                echo "มันมีค่าไม่เป็น 1 <br>"; 
+            // Operator + - * / %(หารเอาเศษ) **(ยกกำลัง)
+            $x = 10;
+            $y = 3;
+            
+            echo $x ;
+            echo "<br>";
+            echo $y ;
+            echo "<br>";
+            echo $x + $y;
+            echo "<br>";
+            echo $x - $y;
+            echo "<br>";
+            echo $x * $y;
+            echo "<br>";
+            echo $x / $y;
+            echo "<br>";
+            echo $x % $y;
+            echo "<br>";
+            echo $x ** $y;
+            
+            // operator x += y => x=x+y(addition)
+            // เท่ากับตัวเดียวเอาไว้สำหรับ assign ค่า
+            echo "<br>";
+            $x = 10;
+            $x += 100;
+            echo $x ;
 
-            // วิธีที่ 2 ใช้เครื่องหมาย ":" หลัง if กับ else และ ปิดท้ายด้วย "endif;"
-            $var2 = 1;
-            if($var2 == 1):
-                echo "มันมีค่าเป็น 1 <br>";
-            else:
-                echo "มันมีค่าไม่เป็น 1 <br>";
-            endif;
+            // operator x -= y => x=x-y(subtraction)
+            echo "<br>";
+            $x = 10;
+            $x -= 100;
+            echo $x ;
+
+            // operator x *= y => x=x*y(Multiplication)
+            echo "<br>";
+            $x = 10;
+            $x *= 100;
+            echo $x ;
+
+            // operator x /= y => x=x/y(Division)
+            echo "<br>";
+            $x = 10;
+            $x /= 100;
+            echo $x ;
+
+            // operator x %= y => x=x%y(Modulus)
+            echo "<br>";
+            $x = 10;
+            $x %= 100;
+            echo $x ;
         ?>
     </body>
 </html>
