@@ -4,23 +4,30 @@
     </head>
     <body>
         <?php
-            // Operator + - * / %(หารเอาเศษ) **(ยกกำลัง)
+            // Assign value in variable
             $x = 10;
             $y = 3;
-            
+ 
+            // Operator + - * / %(หารเอาเศษ) **(ยกกำลัง)
             echo $x ;
             echo "<br>";
             echo $y ;
+            // Operator + 
             echo "<br>";
             echo $x + $y;
+            // Operator - 
             echo "<br>";
             echo $x - $y;
+            // Operator * 
             echo "<br>";
             echo $x * $y;
+            // Operator / 
             echo "<br>";
             echo $x / $y;
+            // Operator %(หารเอาเศษ)
             echo "<br>";
             echo $x % $y;
+            // Operator **(ยกกำลัง)
             echo "<br>";
             echo $x ** $y;
             
@@ -54,6 +61,17 @@
             $x = 10;
             $x %= 100;
             echo $x ;
+
+            // Assign value in variable
+            $x = 10;
+            $y = 3;
+            echo "<br>";
+            echo "<br>";
+            var_dump($x == $y);
+            echo "<br>";
+            var_dump($x === $y);
+            echo "<br>";
+            var_dump($x != $y);
         ?>
     </body>
 </html>
