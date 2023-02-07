@@ -42,7 +42,7 @@
             $str = "Hello World";
             echo $str;
             echo "<br>";
-            echo trim($str, "He");
+            echo trim($str, "Hed!");
             echo "<br>";
             
         ?>
