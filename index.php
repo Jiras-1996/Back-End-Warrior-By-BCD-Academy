@@ -32,7 +32,7 @@
             echo strtolower($str);
             echo "<br>";
 
-            // trim(); => ใช้ลบตัวอักษรบริเวณหน้าและหลังของ string ออก
+            // trim(); => ใช้ลบตัวอักษรบริเวณหน้าและหลังของ string ออก 
             $str = "Hello World";
             echo $str;
             echo "<br>";
