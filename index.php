@@ -13,13 +13,15 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="col">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id necessitatibus illum corrupti autem hic nobis, provident quaerat accusantium inventore recusandae voluptate harum iste placeat minus delectus aspernatur omnis dolore quis?
+                   
+                    <h1>สมัครเรียนว่ายน้ำ กับ จารย์เจ</h1>
+
+                    <form action=submit.php" method = "POST">
+                
+                    </form>
+
                 </div>
             </div>
         </div>
-
-    
-        <?php 
-        ?>
     </body>
 </html>
