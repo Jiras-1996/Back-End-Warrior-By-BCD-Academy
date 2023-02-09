@@ -54,6 +54,7 @@
     echo "New record created successfully";
     } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
+    die();
     }
 
     $conn->close();
