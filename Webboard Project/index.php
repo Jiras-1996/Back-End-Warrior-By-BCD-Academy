@@ -17,7 +17,7 @@
                     <h1>สมัครเรียนว่ายน้ำ กับ จารย์เจ</h1>
 
                     <form action=submit.php" method = "POST">
-                
+
                     </form>
 
                 </div>
