@@ -13,42 +13,50 @@
         <div class="container mt-5">
             <div class="row justify-content-center">
                 <div class="col-6">
+                    
+                    <?php if($_GET['message'] ): ?>
+
+                        <div class = "alert alert-danger">
+                            <?php echo $_GET['message']; ?>
+                        </div>
+                        
+                    <?php endif; ?> 
                    
                     <h1>สมัครเรียนว่ายน้ำ กับ จารย์เจ</h1>
 
-                    <form action=submit.php" method = "POST">
+                    <form action= "submit.php" method = "POST">
 
                         <div class = "mt-3">
 
-                            <label for="firstname" class = "form-label">ชื่อ</label>
+                            <label for="firstname" class = "form-label">ชื่อ*</label>
                             <input type = "text" name = "firstname" placeholder = "ใส่ชื่อที่นี่" class = "form-control">
                     
                         </div>
 
                         <div class = "mt-3">
 
-                            <label for="lastname" class = "form-label">นามสกุล</label>
+                            <label for="lastname" class = "form-label">นามสกุล*</label>
                             <input type = "text" name = "lastname" placeholder = "ใส่นามสกุลที่นี่" class = "form-control">
                     
                         </div>
 
                         <div class = "mt-3">
 
-                            <label for="height" class = "form-label">ส่วนสูง</label>
+                            <label for="height" class = "form-label">ส่วนสูง*</label>
                             <input type = "text" name = "height" placeholder = "ใส่ส่วนสูง (cm.)" class = "form-control">
                     
                         </div>
 
                         <div class = "mt-3">
 
-                            <label for="weight" class = "form-label">น้ำหนัก</label>
+                            <label for="weight" class = "form-label">น้ำหนัก*</label>
                             <input type = "text" name = "weight" placeholder = "ใส่น้ำหนัก (kg.)" class = "form-control">
                     
                         </div>
 
                         <div class = "mt-3">
 
-                            <label for="age" class = "form-label">อายุ</label>
+                            <label for="age" class = "form-label">อายุ*</label>
                             <input type = "text" name = "age" placeholder = "ใส่อายุของท่าน" class = "form-control">
                     
                         </div>
